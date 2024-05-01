@@ -1,0 +1,70 @@
+  .form-container {
+    margin: 20px;
+    position: relative;
+    height: 60vh;
+  }
+  
+  .form-detail {
+    border: 1px solid #13c974;
+    padding: 20px;
+    width: 30rem;
+    position: absolute;
+    bottom: 0; 
+    left: 50%; 
+    /* bottom: 0%; */
+    z-index: 1000;
+    transform: translateX(-50%); 
+  }
+  
+  .form-row {
+    display: flex;
+    /* margin-bottom: 10px; */
+  }
+  
+  label {
+    flex: 0 0 100px; /* Fixed width for labels */
+    margin-right: 10px;
+  }
+  
+  input,
+  select {
+    flex: 1; /* Take remaining space */
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+   .button {
+    margin-top: 2rem;
+    margin-right: 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    
+  }
+  
+  
+button {
+  
+  border: none;
+}
+
+
+/* New styles for the buttons */
+.update-button {
+  background-color: green;
+  color: white;
+  border-radius: 8px;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: white;
+  border-radius: 8px;
+}
+.clear-button{
+  background-color:cornflowerblue;
+  color: white;
+  border-radius: 8px;
+}
+

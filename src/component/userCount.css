@@ -1,0 +1,26 @@
+.user-count {
+  margin-top: 20px;
+  display: flex;
+  /* justify-content: center; */
+  /* width: 20rem; */
+}
+
+.user-count-header {
+  font-size: 15px;
+}
+
+.registration-list {
+  list-style: none;
+  padding: 10;
+}
+
+.registration-item {
+  margin-bottom: 5px;
+}
+
+.date {
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  width: 10rem;
+}
